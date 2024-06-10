@@ -1,0 +1,12 @@
+.page {
+  background-color: var(--amber-2);
+  min-height: 100vh;
+  padding: 2rem;
+}
+.users-table td:last-child {
+  width: 0.1%;
+  white-space: nowrap;
+}
+.users-table td:last-child > * + * {
+  margin-left: 0.25rem;
+}
